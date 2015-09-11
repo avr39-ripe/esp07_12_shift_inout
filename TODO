@@ -1,0 +1,5 @@
+1. change resistors to 0603
+2. change shift-in pull-up resistors to resistor array
+3. change in_ / out_latch ping to 16 - in, 15 out latch
+4. add pull-up resistors to 4,5 pins
+5. add some terminals to shift-in input
