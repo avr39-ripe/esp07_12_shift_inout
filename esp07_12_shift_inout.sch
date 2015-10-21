@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -4567,22 +4567,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
 <rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
-</package>
-<package name="R1005">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 <package name="R1206">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
@@ -12476,6 +12460,28 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <vertex x="-3.05" y="-2.475"/>
 </polygon>
 </package>
+<package name="PRL1632">
+<description>&lt;b&gt;PRL1632 are realized as 1W for 3.2 × 1.6mm(1206)&lt;/b&gt;&lt;p&gt;
+Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
+<wire x1="0.7275" y1="-1.5228" x2="-0.7277" y2="-1.5228" width="0.1524" layer="51"/>
+<wire x1="0.7275" y1="1.5228" x2="-0.7152" y2="1.5228" width="0.1524" layer="51"/>
+<smd name="2" x="0.822" y="0" dx="1" dy="3.2" layer="1"/>
+<smd name="1" x="-0.822" y="0" dx="1" dy="3.2" layer="1"/>
+<text x="-1.4" y="1.8" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.4" y="-3" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.8" y1="-1.6" x2="-0.4" y2="1.6" layer="51"/>
+<rectangle x1="0.4" y1="-1.6" x2="0.8" y2="1.6" layer="51"/>
+</package>
+<package name="R01005">
+<smd name="1" x="-0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
+<smd name="2" x="0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
+<text x="-0.4" y="0.3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.4" y="-1.6" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2" y1="-0.1" x2="-0.075" y2="0.1" layer="51"/>
+<rectangle x1="0.075" y1="-0.1" x2="0.2" y2="0.1" layer="51"/>
+<rectangle x1="-0.15" y1="0.05" x2="0.15" y2="0.1" layer="51"/>
+<rectangle x1="-0.15" y1="-0.1" x2="0.15" y2="-0.05" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="R-EU">
@@ -12546,15 +12552,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </technologies>
 </device>
 <device name="R0805W" package="R0805W">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="R1005" package="R1005">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -13275,6 +13272,24 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </technologies>
 </device>
 <device name="1812X7R" package="1812X7R">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PRL1632" package="PRL1632">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="01005" package="R01005">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -15580,97 +15595,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="esp8266_esp12">
-<packages>
-<package name="EPS8266_ESP12">
-<wire x1="0" y1="0" x2="0" y2="24" width="0.127" layer="21"/>
-<wire x1="0" y1="24" x2="-16" y2="24" width="0.127" layer="21"/>
-<wire x1="-16" y1="24" x2="-16" y2="0" width="0.127" layer="21"/>
-<wire x1="-16" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
-<smd name="16" x="-15.5" y="2" dx="2" dy="1" layer="1"/>
-<smd name="15" x="-15.5" y="4" dx="2" dy="1" layer="1"/>
-<smd name="14" x="-15.5" y="6" dx="2" dy="1" layer="1"/>
-<smd name="13" x="-15.5" y="8" dx="2" dy="1" layer="1"/>
-<smd name="12" x="-15.5" y="10" dx="2" dy="1" layer="1"/>
-<smd name="11" x="-15.5" y="12" dx="2" dy="1" layer="1"/>
-<smd name="10" x="-15.5" y="14" dx="2" dy="1" layer="1"/>
-<smd name="9" x="-15.5" y="16" dx="2" dy="1" layer="1"/>
-<smd name="1" x="-0.4" y="2" dx="2" dy="1" layer="1"/>
-<smd name="2" x="-0.4" y="4" dx="2" dy="1" layer="1"/>
-<smd name="3" x="-0.4" y="6" dx="2" dy="1" layer="1"/>
-<smd name="4" x="-0.4" y="8" dx="2" dy="1" layer="1"/>
-<smd name="5" x="-0.4" y="10" dx="2" dy="1" layer="1"/>
-<smd name="6" x="-0.4" y="12" dx="2" dy="1" layer="1"/>
-<smd name="7" x="-0.4" y="14" dx="2" dy="1" layer="1"/>
-<smd name="8" x="-0.4" y="16" dx="2" dy="1" layer="1"/>
-<wire x1="-15" y1="23" x2="-1" y2="23" width="0.127" layer="21"/>
-<wire x1="-1" y1="23" x2="-1" y2="18" width="0.127" layer="21"/>
-<wire x1="-1" y1="18" x2="-15" y2="18" width="0.127" layer="21"/>
-<wire x1="-15" y1="18" x2="-15" y2="23" width="0.127" layer="21"/>
-<text x="-12" y="1.5" size="1.27" layer="21" rot="R90">&gt;NAME</text>
-<text x="-4" y="7.5" size="1.27" layer="21" rot="R270">ESP-12</text>
-</package>
-</packages>
-<symbols>
-<symbol name="ESP12">
-<pin name="REST" x="-5.08" y="0" length="middle"/>
-<pin name="ADC" x="-5.08" y="-2.54" length="middle"/>
-<pin name="CH_PD" x="-5.08" y="-5.08" length="middle"/>
-<pin name="GPIO16" x="-5.08" y="-7.62" length="middle"/>
-<pin name="GPIO14" x="-5.08" y="-10.16" length="middle"/>
-<pin name="GPIO12" x="-5.08" y="-12.7" length="middle"/>
-<pin name="GPIO13" x="-5.08" y="-15.24" length="middle"/>
-<pin name="VCC" x="-5.08" y="-17.78" length="middle"/>
-<pin name="GND" x="27.94" y="-17.78" length="middle" rot="R180"/>
-<pin name="GPIO15" x="27.94" y="-15.24" length="middle" rot="R180"/>
-<pin name="GPIO2" x="27.94" y="-12.7" length="middle" rot="R180"/>
-<pin name="GPIO0" x="27.94" y="-10.16" length="middle" rot="R180"/>
-<pin name="GPIO5" x="27.94" y="-7.62" length="middle" rot="R180"/>
-<pin name="GPIO4" x="27.94" y="-5.08" length="middle" rot="R180"/>
-<pin name="RXD" x="27.94" y="-2.54" length="middle" rot="R180"/>
-<pin name="TXD" x="27.94" y="0" length="middle" rot="R180"/>
-<wire x1="0" y1="2.54" x2="0" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="0" y1="-20.32" x2="22.86" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-20.32" x2="22.86" y2="2.54" width="0.254" layer="94"/>
-<wire x1="22.86" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
-<text x="0" y="-22.86" size="1.27" layer="94">&gt;NAME</text>
-<text x="0" y="-25.4" size="1.27" layer="94">ESP8266_ESP12</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ESP8266_ESP-12">
-<description>ESP8266_ESP-12</description>
-<gates>
-<gate name="G$1" symbol="ESP12" x="-12.7" y="10.16"/>
-</gates>
-<devices>
-<device name="" package="EPS8266_ESP12">
-<connects>
-<connect gate="G$1" pin="ADC" pad="10"/>
-<connect gate="G$1" pin="CH_PD" pad="11"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="GPIO0" pad="4"/>
-<connect gate="G$1" pin="GPIO12" pad="14"/>
-<connect gate="G$1" pin="GPIO13" pad="15"/>
-<connect gate="G$1" pin="GPIO14" pad="13"/>
-<connect gate="G$1" pin="GPIO15" pad="2"/>
-<connect gate="G$1" pin="GPIO16" pad="12"/>
-<connect gate="G$1" pin="GPIO2" pad="3"/>
-<connect gate="G$1" pin="GPIO4" pad="6"/>
-<connect gate="G$1" pin="GPIO5" pad="5"/>
-<connect gate="G$1" pin="REST" pad="9"/>
-<connect gate="G$1" pin="RXD" pad="7"/>
-<connect gate="G$1" pin="TXD" pad="8"/>
-<connect gate="G$1" pin="VCC" pad="16"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -18002,6 +17926,144 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </deviceset>
 </devicesets>
 </library>
+<library name="ESP8266-ESP12E">
+<packages>
+<package name="ESP8266-ESP12E">
+<description>
+&lt;b&gt;ESP8266-12E with additional I/O and GPIO04/05 corrected&lt;/b&gt;&lt;p&gt;
+The author cannot warrant that this library is free from error
+or will meet your specific requirements.&lt;p&gt;
+&lt;author&gt;Created by PuceBaboon.com. Komagane, Nagano, JAPAN&lt;/author&gt;
+</description>
+<wire x1="16.2" y1="0" x2="16.2" y2="24.1" width="0.127" layer="21"/>
+<wire x1="16.2" y1="24.1" x2="0" y2="24.1" width="0.127" layer="21"/>
+<wire x1="0" y1="24.1" x2="0" y2="0" width="0.127" layer="21"/>
+<smd name="8" x="0" y="2" dx="2" dy="1.2" layer="1"/>
+<smd name="7" x="0" y="4" dx="2" dy="1.2" layer="1"/>
+<smd name="6" x="0" y="6" dx="2" dy="1.2" layer="1"/>
+<smd name="5" x="0" y="8" dx="2" dy="1.2" layer="1"/>
+<smd name="4" x="0" y="10" dx="2" dy="1.2" layer="1"/>
+<smd name="3" x="0" y="12" dx="2" dy="1.2" layer="1"/>
+<smd name="2" x="0" y="14" dx="2" dy="1.2" layer="1"/>
+<smd name="1" x="0" y="16" dx="2" dy="1.2" layer="1"/>
+<smd name="9" x="16.2" y="2" dx="2" dy="1.2" layer="1"/>
+<smd name="10" x="16.2" y="4" dx="2" dy="1.2" layer="1"/>
+<smd name="11" x="16.2" y="6" dx="2" dy="1.2" layer="1"/>
+<smd name="12" x="16.2" y="8" dx="2" dy="1.2" layer="1"/>
+<smd name="13" x="16.2" y="10" dx="2" dy="1.2" layer="1"/>
+<smd name="14" x="16.2" y="12" dx="2" dy="1.2" layer="1"/>
+<smd name="15" x="16.2" y="14" dx="2" dy="1.2" layer="1"/>
+<smd name="16" x="16.2" y="16" dx="2" dy="1.2" layer="1"/>
+<text x="5" y="2" size="1.27" layer="21" rot="R90">&gt;NAME</text>
+<text x="5" y="11.11" size="1.27" layer="21">ESP-12E</text>
+<wire x1="2.54" y1="16.51" x2="2.54" y2="17.78" width="0.127" layer="51"/>
+<wire x1="2.54" y1="17.78" x2="2.54" y2="22.86" width="0.127" layer="51"/>
+<wire x1="2.54" y1="22.86" x2="3.81" y2="22.86" width="0.127" layer="51"/>
+<wire x1="3.81" y1="22.86" x2="3.81" y2="19.05" width="0.127" layer="51"/>
+<wire x1="3.81" y1="19.05" x2="5.08" y2="19.05" width="0.127" layer="51"/>
+<wire x1="5.08" y1="19.05" x2="5.08" y2="22.86" width="0.127" layer="51"/>
+<wire x1="5.08" y1="22.86" x2="6.35" y2="22.86" width="0.127" layer="51"/>
+<wire x1="6.35" y1="22.86" x2="6.35" y2="19.05" width="0.127" layer="51"/>
+<wire x1="6.35" y1="19.05" x2="7.62" y2="19.05" width="0.127" layer="51"/>
+<wire x1="7.62" y1="19.05" x2="7.62" y2="22.86" width="0.127" layer="51"/>
+<wire x1="7.62" y1="22.86" x2="8.89" y2="22.86" width="0.127" layer="51"/>
+<wire x1="8.89" y1="22.86" x2="8.89" y2="19.05" width="0.127" layer="51"/>
+<wire x1="8.89" y1="19.05" x2="10.16" y2="19.05" width="0.127" layer="51"/>
+<wire x1="10.16" y1="19.05" x2="10.16" y2="22.86" width="0.127" layer="51"/>
+<wire x1="10.16" y1="22.86" x2="13.97" y2="22.86" width="0.127" layer="51"/>
+<wire x1="2.54" y1="17.78" x2="10.16" y2="17.78" width="0.127" layer="51"/>
+<smd name="17" x="11" y="0" dx="2" dy="1.2" layer="1" rot="R90"/>
+<smd name="18" x="3" y="0" dx="2" dy="1.2" layer="1" rot="R90"/>
+<smd name="19" x="5" y="0" dx="2" dy="1.2" layer="1" rot="R90"/>
+<wire x1="0" y1="0" x2="16.2" y2="0" width="0.127" layer="21"/>
+<smd name="20" x="13" y="0" dx="2" dy="1.2" layer="1" rot="R90"/>
+<smd name="21" x="7" y="0" dx="2" dy="1.2" layer="1" rot="R90"/>
+<smd name="22" x="9" y="0" dx="2" dy="1.2" layer="1" rot="R90"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ESP12E">
+<description>
+&lt;b&gt;ESP8266-12E with additional I/O and GPIO04/05 corrected&lt;/b&gt;&lt;p&gt;
+The author cannot warrant that this library is free from error
+or will meet your specific requirements.&lt;p&gt;
+&lt;author&gt;Created by PuceBaboon.com. Komagane, Nagano, JAPAN&lt;/author&gt;
+</description>
+<pin name="GND" x="10.16" y="-10.16" length="middle" rot="R180"/>
+<pin name="GPIO15" x="10.16" y="-7.62" length="middle" rot="R180"/>
+<pin name="GPIO2" x="10.16" y="-5.08" length="middle" rot="R180"/>
+<pin name="GPIO0" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="GPIO4" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="GPIO5" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="RXD" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="TXD" x="10.16" y="7.62" length="middle" rot="R180"/>
+<pin name="REST" x="-22.86" y="7.62" length="middle"/>
+<pin name="ADC" x="-22.86" y="5.08" length="middle"/>
+<pin name="CH_PD" x="-22.86" y="2.54" length="middle"/>
+<pin name="GPIO16" x="-22.86" y="0" length="middle"/>
+<pin name="GPIO14" x="-22.86" y="-2.54" length="middle"/>
+<pin name="GPIO12" x="-22.86" y="-5.08" length="middle"/>
+<pin name="GPIO13" x="-22.86" y="-7.62" length="middle"/>
+<pin name="VCC" x="-22.86" y="-10.16" length="middle"/>
+<wire x1="-17.78" y1="-20.32" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-20.32" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="-17.78" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="15.24" x2="-17.78" y2="-20.32" width="0.254" layer="94"/>
+<text x="-15.24" y="10.16" size="1.27" layer="94">ESP8266_ESP12E</text>
+<text x="-10.16" y="12.7" size="1.27" layer="94">&gt;NAME</text>
+<pin name="CS0" x="-12.7" y="-25.4" length="middle" rot="R90"/>
+<pin name="MISO" x="-10.16" y="-25.4" length="middle" rot="R90"/>
+<pin name="GPIO9" x="-7.62" y="-25.4" length="middle" rot="R90"/>
+<pin name="GPIO10" x="-5.08" y="-25.4" length="middle" rot="R90"/>
+<pin name="MOSI" x="-2.54" y="-25.4" length="middle" rot="R90"/>
+<pin name="SCLK" x="0" y="-25.4" length="middle" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ESP8266-12E" prefix="MDL" uservalue="yes">
+<description>
+&lt;b&gt;ESP8266-12E with additional I/O and GPIO04/05 corrected&lt;/b&gt;&lt;p&gt;
+The author cannot warrant that this library is free from error
+or will meet your specific requirements.&lt;p&gt;
+&lt;author&gt;Created by PuceBaboon.com. Komagane, Nagano, JAPAN&lt;/author&gt;
+</description>
+<gates>
+<gate name="G$1" symbol="ESP12E" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="ESP8266-ESP12E" package="ESP8266-ESP12E">
+<connects>
+<connect gate="G$1" pin="ADC" pad="2"/>
+<connect gate="G$1" pin="CH_PD" pad="3"/>
+<connect gate="G$1" pin="CS0" pad="17"/>
+<connect gate="G$1" pin="GND" pad="9"/>
+<connect gate="G$1" pin="GPIO0" pad="12"/>
+<connect gate="G$1" pin="GPIO10" pad="20"/>
+<connect gate="G$1" pin="GPIO12" pad="6"/>
+<connect gate="G$1" pin="GPIO13" pad="7"/>
+<connect gate="G$1" pin="GPIO14" pad="5"/>
+<connect gate="G$1" pin="GPIO15" pad="10"/>
+<connect gate="G$1" pin="GPIO16" pad="4"/>
+<connect gate="G$1" pin="GPIO2" pad="11"/>
+<connect gate="G$1" pin="GPIO4" pad="13"/>
+<connect gate="G$1" pin="GPIO5" pad="14"/>
+<connect gate="G$1" pin="GPIO9" pad="19"/>
+<connect gate="G$1" pin="MISO" pad="18"/>
+<connect gate="G$1" pin="MOSI" pad="21"/>
+<connect gate="G$1" pin="REST" pad="1"/>
+<connect gate="G$1" pin="RXD" pad="15"/>
+<connect gate="G$1" pin="SCLK" pad="22"/>
+<connect gate="G$1" pin="TXD" pad="16"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -18051,7 +18113,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="JP5" library="SparkFun-Connectors" deviceset="M07" device="" value="SPI-OUT"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
-<part name="U$1" library="esp8266_esp12" deviceset="ESP8266_ESP-12" device=""/>
+<part name="U$1" library="ESP8266-ESP12E" deviceset="ESP8266-12E" device="ESP8266-ESP12E"/>
 <part name="IC5" library="SparkFun-PowerIC" deviceset="V_REG_LM1117" device="SOT223"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0805"/>
@@ -18069,11 +18131,11 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="VCC" device=""/>
-<part name="R17" library="rcl" deviceset="R-EU_" device="M0805"/>
-<part name="R18" library="rcl" deviceset="R-EU_" device="M0805"/>
-<part name="R19" library="rcl" deviceset="R-EU_" device="M0805" value="10K"/>
-<part name="R20" library="rcl" deviceset="R-EU_" device="M0805" value="10K"/>
-<part name="R21" library="rcl" deviceset="R-EU_" device="M0805" value="10K"/>
+<part name="R17" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R18" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R19" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
+<part name="R20" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
+<part name="R21" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" deviceset="VCC" device=""/>
 <part name="P+10" library="supply1" deviceset="VCC" device=""/>
@@ -18081,7 +18143,6 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="P+13" library="supply1" deviceset="VCC" device=""/>
 <part name="JP8" library="SparkFun-Connectors" deviceset="M05" device="PTH" value="PROG"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="SJ1" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
 <part name="JP6" library="SparkFun-Connectors" deviceset="M07" device="" value="SPI-IN"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="P+11" library="supply1" deviceset="VCC" device=""/>
@@ -18096,7 +18157,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="JP12" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="R22" library="rcl" deviceset="R-EU_" device="M0805"/>
+<part name="R22" library="rcl" deviceset="R-EU_" device="R0603"/>
 <part name="P+16" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>
@@ -18140,7 +18201,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <instance part="JP5" gate="G$1" x="22.86" y="134.62"/>
 <instance part="GND1" gate="1" x="30.48" y="129.54" rot="R90"/>
 <instance part="P+5" gate="VCC" x="30.48" y="144.78" rot="R270"/>
-<instance part="U$1" gate="G$1" x="-63.5" y="83.82"/>
+<instance part="U$1" gate="G$1" x="-45.72" y="76.2"/>
 <instance part="IC5" gate="G$1" x="-17.78" y="127"/>
 <instance part="C1" gate="G$1" x="-27.94" y="124.46"/>
 <instance part="C3" gate="G$1" x="-5.08" y="124.46"/>
@@ -18168,19 +18229,18 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <instance part="P+10" gate="VCC" x="-10.16" y="73.66"/>
 <instance part="P+12" gate="VCC" x="-83.82" y="86.36"/>
 <instance part="P+13" gate="VCC" x="-83.82" y="81.28"/>
-<instance part="JP8" gate="G$1" x="-60.96" y="96.52"/>
-<instance part="GND15" gate="1" x="-53.34" y="106.68" rot="R180"/>
-<instance part="SJ1" gate="1" x="-73.66" y="66.04"/>
+<instance part="JP8" gate="G$1" x="-71.12" y="104.14"/>
+<instance part="GND15" gate="1" x="-63.5" y="114.3" rot="R180"/>
 <instance part="JP6" gate="G$1" x="58.42" y="134.62"/>
 <instance part="GND16" gate="1" x="66.04" y="129.54" rot="R90"/>
 <instance part="P+11" gate="VCC" x="66.04" y="144.78" rot="R270"/>
 <instance part="SJ2" gate="1" x="99.06" y="58.42"/>
-<instance part="JP9" gate="G$1" x="-38.1" y="45.72"/>
-<instance part="JP10" gate="G$1" x="-68.58" y="45.72"/>
-<instance part="GND17" gate="1" x="-25.4" y="40.64"/>
-<instance part="P+14" gate="VCC" x="-25.4" y="48.26"/>
-<instance part="P+15" gate="VCC" x="-55.88" y="48.26"/>
-<instance part="GND18" gate="1" x="-55.88" y="40.64"/>
+<instance part="JP9" gate="G$1" x="-15.24" y="101.6"/>
+<instance part="JP10" gate="G$1" x="-45.72" y="101.6"/>
+<instance part="GND17" gate="1" x="-2.54" y="96.52"/>
+<instance part="P+14" gate="VCC" x="-2.54" y="104.14"/>
+<instance part="P+15" gate="VCC" x="-33.02" y="104.14"/>
+<instance part="GND18" gate="1" x="-33.02" y="96.52"/>
 <instance part="JP11" gate="G$1" x="-68.58" y="124.46"/>
 <instance part="JP12" gate="G$1" x="-81.28" y="124.46"/>
 <instance part="GND19" gate="1" x="-60.96" y="121.92"/>
@@ -18284,9 +18344,10 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <label x="71.12" y="132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GPIO4"/>
-<wire x1="-35.56" y1="78.74" x2="-30.48" y2="78.74" width="0.1524" layer="91"/>
-<label x="-35.56" y="78.74" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="GPIO16"/>
+<wire x1="-68.58" y1="76.2" x2="-73.66" y2="76.2" width="0.1524" layer="91"/>
+<label x="-73.66" y="76.2" size="1.778" layer="95"/>
+<pinref part="R22" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="IN_LATCH" class="0">
@@ -18311,9 +18372,10 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <label x="71.12" y="142.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GPIO5"/>
-<wire x1="-35.56" y1="76.2" x2="-30.48" y2="76.2" width="0.1524" layer="91"/>
-<label x="-35.56" y="76.2" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="GPIO15"/>
+<wire x1="-35.56" y1="68.58" x2="-25.4" y2="68.58" width="0.1524" layer="91"/>
+<label x="-35.56" y="68.58" size="1.778" layer="95"/>
+<pinref part="R21" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -18414,26 +18476,27 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <pinref part="P+13" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="SJ1" gate="1" pin="1"/>
-<pinref part="P+8" gate="VCC" pin="VCC"/>
-</segment>
-<segment>
 <pinref part="JP6" gate="G$1" pin="7"/>
 <pinref part="P+11" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="JP9" gate="G$1" pin="2"/>
 <pinref part="P+14" gate="VCC" pin="VCC"/>
-<wire x1="-25.4" y1="45.72" x2="-33.02" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="101.6" x2="-10.16" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP10" gate="G$1" pin="2"/>
-<wire x1="-63.5" y1="45.72" x2="-55.88" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="101.6" x2="-33.02" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="P+15" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="R22" gate="G$1" pin="1"/>
 <pinref part="P+16" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="P+8" gate="VCC" pin="VCC"/>
+<wire x1="-78.74" y1="66.04" x2="-68.58" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -18495,7 +18558,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </segment>
 <segment>
 <pinref part="JP8" gate="G$1" pin="5"/>
-<wire x1="-53.34" y1="101.6" x2="-53.34" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="109.22" x2="-63.5" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -18509,11 +18572,11 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <segment>
 <pinref part="JP9" gate="G$1" pin="1"/>
 <pinref part="GND17" gate="1" pin="GND"/>
-<wire x1="-25.4" y1="43.18" x2="-33.02" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="99.06" x2="-10.16" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP10" gate="G$1" pin="1"/>
-<wire x1="-63.5" y1="43.18" x2="-55.88" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="99.06" x2="-33.02" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -18873,8 +18936,8 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </segment>
 <segment>
 <pinref part="JP8" gate="G$1" pin="2"/>
-<wire x1="-53.34" y1="93.98" x2="-48.26" y2="93.98" width="0.1524" layer="91"/>
-<label x="-53.34" y="93.98" size="1.778" layer="95"/>
+<wire x1="-63.5" y1="101.6" x2="-58.42" y2="101.6" width="0.1524" layer="91"/>
+<label x="-63.5" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RXD" class="0">
@@ -18885,8 +18948,8 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </segment>
 <segment>
 <pinref part="JP8" gate="G$1" pin="3"/>
-<wire x1="-53.34" y1="96.52" x2="-48.26" y2="96.52" width="0.1524" layer="91"/>
-<label x="-53.34" y="96.52" size="1.778" layer="95"/>
+<wire x1="-63.5" y1="104.14" x2="-58.42" y2="104.14" width="0.1524" layer="91"/>
+<label x="-63.5" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO0" class="0">
@@ -18898,13 +18961,13 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </segment>
 <segment>
 <pinref part="JP8" gate="G$1" pin="1"/>
-<wire x1="-53.34" y1="91.44" x2="-48.26" y2="91.44" width="0.1524" layer="91"/>
-<label x="-53.34" y="91.44" size="1.778" layer="95"/>
+<wire x1="-63.5" y1="99.06" x2="-58.42" y2="99.06" width="0.1524" layer="91"/>
+<label x="-63.5" y="99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="JP9" gate="G$1" pin="4"/>
-<wire x1="-33.02" y1="50.8" x2="-27.94" y2="50.8" width="0.1524" layer="91"/>
-<label x="-33.02" y="50.8" size="1.778" layer="95"/>
+<wire x1="-10.16" y1="106.68" x2="-5.08" y2="106.68" width="0.1524" layer="91"/>
+<label x="-10.16" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CH_PD" class="0">
@@ -18916,8 +18979,8 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </segment>
 <segment>
 <pinref part="JP8" gate="G$1" pin="4"/>
-<wire x1="-53.34" y1="99.06" x2="-48.26" y2="99.06" width="0.1524" layer="91"/>
-<label x="-53.34" y="99.06" size="1.778" layer="95"/>
+<wire x1="-63.5" y1="106.68" x2="-58.42" y2="106.68" width="0.1524" layer="91"/>
+<label x="-63.5" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="REST" class="0">
@@ -18937,34 +19000,8 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </segment>
 <segment>
 <pinref part="JP9" gate="G$1" pin="3"/>
-<wire x1="-33.02" y1="48.26" x2="-27.94" y2="48.26" width="0.1524" layer="91"/>
-<label x="-33.02" y="48.26" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="GPIO15" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="GPIO15"/>
-<wire x1="-35.56" y1="68.58" x2="-25.4" y2="68.58" width="0.1524" layer="91"/>
-<label x="-35.56" y="68.58" size="1.778" layer="95"/>
-<pinref part="R21" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="JP10" gate="G$1" pin="3"/>
-<wire x1="-63.5" y1="48.26" x2="-58.42" y2="48.26" width="0.1524" layer="91"/>
-<label x="-63.5" y="48.26" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="GPIO16" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="GPIO16"/>
-<wire x1="-68.58" y1="76.2" x2="-73.66" y2="76.2" width="0.1524" layer="91"/>
-<label x="-73.66" y="76.2" size="1.778" layer="95"/>
-<pinref part="R22" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="JP10" gate="G$1" pin="4"/>
-<wire x1="-63.5" y1="50.8" x2="-58.42" y2="50.8" width="0.1524" layer="91"/>
-<label x="-63.5" y="50.8" size="1.778" layer="95"/>
+<wire x1="-10.16" y1="104.14" x2="-5.08" y2="104.14" width="0.1524" layer="91"/>
+<label x="-10.16" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ADC" class="0">
@@ -18972,12 +19009,6 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <pinref part="U$1" gate="G$1" pin="ADC"/>
 <wire x1="-68.58" y1="81.28" x2="-73.66" y2="81.28" width="0.1524" layer="91"/>
 <label x="-73.66" y="81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$36" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
-<pinref part="SJ1" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="SER_OUT" class="0">
@@ -19003,6 +19034,66 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <pinref part="JP6" gate="G$1" pin="4"/>
 <wire x1="63.5" y1="137.16" x2="71.12" y2="137.16" width="0.1524" layer="91"/>
 <label x="71.12" y="137.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPIO4" class="0">
+<segment>
+<pinref part="JP10" gate="G$1" pin="3"/>
+<wire x1="-40.64" y1="104.14" x2="-35.56" y2="104.14" width="0.1524" layer="91"/>
+<label x="-40.64" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GPIO4"/>
+<wire x1="-35.56" y1="76.2" x2="-30.48" y2="76.2" width="0.1524" layer="91"/>
+<label x="-35.56" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPIO5" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="GPIO5"/>
+<wire x1="-35.56" y1="78.74" x2="-30.48" y2="78.74" width="0.1524" layer="91"/>
+<label x="-35.56" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP10" gate="G$1" pin="4"/>
+<wire x1="-40.64" y1="106.68" x2="-35.56" y2="106.68" width="0.1524" layer="91"/>
+<label x="-40.64" y="106.68" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="CS0"/>
+<wire x1="-58.42" y1="50.8" x2="-58.42" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$37" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="MISO"/>
+<wire x1="-55.88" y1="50.8" x2="-55.88" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$38" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="GPIO9"/>
+<wire x1="-53.34" y1="50.8" x2="-53.34" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$39" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="GPIO10"/>
+<wire x1="-50.8" y1="50.8" x2="-50.8" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$40" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="MOSI"/>
+<wire x1="-48.26" y1="50.8" x2="-48.26" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$41" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="SCLK"/>
+<wire x1="-45.72" y1="50.8" x2="-45.72" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
